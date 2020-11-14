@@ -1,28 +1,27 @@
 vote_data
 -
-State VARCHAR
-County VARCHAR
+State VARCHAR PK
+County VARCHAR PK
 Candidate VARCHAR
 Party VARCHAR
 Votes INTEGER
 
 biden_tweets
 -
-User_ID DOUBLE 
 Tweet VARCHAR
 City VARCHAR
+State VARCHAR PK FK >- vote_data.State
 Country VARCHAR
-State VARCHAR
-State_Code VARCHAR
 
 trump_tweets
 -
-User_ID DOUBLE
 Tweet VARCHAR
 City VARCHAR
+State VARCHAR PK FK >- vote_data.State
 Country VARCHAR
-State VARCHAR
-State_Code VARCHAR
 
 census_data
 ----
+State VARCHAR PK
+County VARCHAR PK
+Median_Income INTEGER
