@@ -1,0 +1,28 @@
+vote_data
+-
+State VARCHAR
+County VARCHAR
+Candidate VARCHAR
+Party VARCHAR
+Votes INTEGER
+
+biden_tweets
+-
+User_ID DOUBLE 
+Tweet VARCHAR
+City VARCHAR
+Country VARCHAR
+State VARCHAR
+State_Code VARCHAR
+
+trump_tweets
+-
+User_ID DOUBLE
+Tweet VARCHAR
+City VARCHAR
+Country VARCHAR
+State VARCHAR
+State_Code VARCHAR
+
+census_data
+----
