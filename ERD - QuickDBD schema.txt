@@ -21,17 +21,18 @@ State VARCHAR PK FK >- vote_data.State
 Country VARCHAR
 
 census_data
+rel vote_data
 ----
 State VARCHAR PK
 County VARCHAR PK
 Population INTEGER
-Population_Hispanic INTEGER
-Population_White INTEGER
-Population_Black INTEGER
+Median_Age DOUBLE
 Median_Household_Income INTEGER
 Per_Capita_Income INTEGER
 Poverty_Count INTEGER
 Unemployment_Count INTEGER
-Median_Age DOUBLE
+Population_White INTEGER
+Population_AfricanAmerican INTEGER
+Population_Hispanic INTEGER
 US_Citizen_Birth INTEGER
 US_Citizen_Naturalised INTEGER
