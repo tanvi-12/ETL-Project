@@ -9,16 +9,16 @@ Votes INTEGER
 biden_tweets
 -
 Tweet VARCHAR
-City VARCHAR
-State VARCHAR PK FK >- vote_data.State
 Country VARCHAR
+State VARCHAR PK FK >- vote_data.State
+
 
 trump_tweets
 -
 Tweet VARCHAR
-City VARCHAR
-State VARCHAR PK FK >- vote_data.State
 Country VARCHAR
+State VARCHAR PK FK >- vote_data.State
+
 
 census_data
 rel vote_data
@@ -27,10 +27,10 @@ State VARCHAR PK
 County VARCHAR PK
 Population INTEGER
 Median_Age DOUBLE
-Median_Household_Income INTEGER
-Per_Capita_Income INTEGER
-Poverty_Count INTEGER
-Unemployment_Count INTEGER
+Median_Household_Income DOUBLE
+Per_Capita_Income DOUBLE
+Poverty_Count DOUBLE
+Unemployment_Count DOUBLE
 Population_White INTEGER
 Population_AfricanAmerican INTEGER
 Population_Hispanic INTEGER
