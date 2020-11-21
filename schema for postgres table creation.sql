@@ -14,20 +14,22 @@ CREATE TABLE "vote_data" (
 );
 
 CREATE TABLE "biden_tweets" (
+    "ID" SERIAL   NOT NULL,
     "Tweet" VARCHAR   NOT NULL,
     "Country" VARCHAR   NOT NULL,
     "State" VARCHAR   NOT NULL,
     CONSTRAINT "pk_biden_tweets" PRIMARY KEY (
-        "State"
+        "ID"
      )
 );
 
 CREATE TABLE "trump_tweets" (
+    "ID" SERIAL   NOT NULL,
     "Tweet" VARCHAR   NOT NULL,
     "Country" VARCHAR   NOT NULL,
     "State" VARCHAR   NOT NULL,
     CONSTRAINT "pk_trump_tweets" PRIMARY KEY (
-        "State"
+        "ID"
      )
 );
 

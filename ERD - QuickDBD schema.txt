@@ -8,19 +8,23 @@ Party VARCHAR
 Votes INTEGER
 
 biden_tweets
+rel vote_data
 rel census_data
 -
+ID SERIAL PK
 Tweet VARCHAR
 Country VARCHAR
-State VARCHAR PK
+State VARCHAR
 
 
 trump_tweets
+rel vote_data
 rel census_data
 -
+ID SERIAL PK
 Tweet VARCHAR
 Country VARCHAR
-State VARCHAR PK
+State VARCHAR
 
 census_data
 ----
