@@ -25,4 +25,9 @@ We obtained data from the US Census API, this was using Requests in a iPynb note
 what data cleaning or transformation was required.
 ## Load
 
-the final database, tables/collections, and why this was chosen.
+The final database choosen is Pgadmin. The reason is that SQL can be a powerful choice with a wide range of security standars and has numerous features to support reliability. It is a free and open source. The data model isn't going to change very often and not much documents data.
+
+We have four tables, which are biden_tweets,cesus_data, trump_tweets and vote_data. And there are 6 views, 3 for biden, 3 for Trump. All views to answer our questions: 
+1. States that Biden won are with higher household income overall.
+2. Trump got more hashtags on tweets no matter in the state he won or lose. 
+

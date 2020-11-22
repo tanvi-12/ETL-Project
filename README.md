@@ -27,3 +27,12 @@ Tanvi - Extract - Getting the Census Data and upload other resources to Github
 Justin - Transform - Create SQL Databases, relationships,  cleaning our CSVs
 
 Grace - Load - Import Tables, create view
+
+
+### Sample queries
+List the 5 state where Trump has his greatest leads over B.
+List the 5 state where Biden has his greatest leads over Trump.
+For the states with the 10 highest household income, list them in order of their votes for Biden over Trump/Trump over Biden.
+Compare number of tweets from states where Biden has more vote than Trump
+Compare number of tweets from states where Trump has more vote than Biden
+
