@@ -9,7 +9,7 @@ CREATE TABLE "vote_data" (
     "Party" VARCHAR   NOT NULL,
     "Votes" INTEGER   NOT NULL,
     CONSTRAINT "pk_vote_data" PRIMARY KEY (
-        "State","County"
+        "State","County","Candidate"
      )
 );
 
