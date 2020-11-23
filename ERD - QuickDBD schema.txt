@@ -1,0 +1,43 @@
+vote_data
+rel census_data
+-
+State VARCHAR PK 
+County VARCHAR PK 
+Candidate VARCHAR PK
+Party VARCHAR
+Votes INTEGER
+
+biden_tweets
+rel vote_data
+rel census_data
+-
+ID SERIAL PK
+Tweet VARCHAR
+Country VARCHAR
+State VARCHAR
+
+
+trump_tweets
+rel vote_data
+rel census_data
+-
+ID SERIAL PK
+Tweet VARCHAR
+Country VARCHAR
+State VARCHAR
+
+census_data
+----
+State VARCHAR PK
+County VARCHAR PK
+Population INTEGER
+Median_Age FLOAT
+Median_Household_Income FLOAT
+Per_Capita_Income FLOAT
+Poverty_Count FLOAT
+Unemployment_Count FLOAT
+Population_White INTEGER
+Population_AfricanAmerican INTEGER
+Population_Hispanic INTEGER
+US_Citizen_Birth INTEGER
+US_Citizen_Naturalised INTEGER
