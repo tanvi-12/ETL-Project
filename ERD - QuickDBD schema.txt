@@ -3,7 +3,7 @@ rel census_data
 -
 State VARCHAR PK 
 County VARCHAR PK 
-Candidate VARCHAR
+Candidate VARCHAR PK
 Party VARCHAR
 Votes INTEGER
 
