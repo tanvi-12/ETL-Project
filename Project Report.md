@@ -33,9 +33,9 @@ The twitter data was compressed in Excel before it was loaded onto GitHub (the f
 
 ## Load
 
-The final database chosen is Pgadmin. The reason is that SQL can be a powerful choice with a wide range of security standards and has numerous features to support reliability. It is a free and open source. The data model isn't going to change very often and not much documents data.
+The final database chosen is ProgreSQL. The reason is that SQL can be a powerful choice with a wide range of security standards and has numerous features to support reliability. It is a free and open source. The data model isn't going to change very often and not much documents data.
 
-We have four tables, which are biden_tweets,cesus_data, trump_tweets and vote_data. And there are 6 views, 3 for biden, 3 for Trump. All views to answer our questions: 
-1. States that Biden won are with higher household income overall.
-2. Trump got more hashtags on tweets no matter in the state he won or lose. 
+We create tables in Pgadmin and upload data via Python. There are four tables, biden_tweets, cesus_data, trump_tweets and vote_data.
+In order to anwer the proposed questions, we join different tables that contain target information in one to query data.  
+We create views of joined tables which can answer our questions efficiently.
 

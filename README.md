@@ -30,13 +30,15 @@ Grace - Load - Import Tables, create view
 
 
 ### Sample queries 
-List the 5 states where Trump has his greatest leads over B.
+List the 5 states where Trump has his greatest leads over Biden, order by household income.
 
-List the 5 states where Biden has his greatest leads over Trump.
+List the 5 states where Biden has his greatest leads over Trump, order by household income.
 
 For the states with the 10 highest household income, list them in order of their votes for Biden over Trump/Trump over Biden.
 
 Compare number of tweets from states where Biden has more vote than Trump
 
 Compare number of tweets from states where Trump has more vote than Biden
+
+Query for top 5 states vote Kanye West - Order by Votes
 
