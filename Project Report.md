@@ -37,5 +37,5 @@ The final database chosen is ProgreSQL. The reason is that SQL can be a powerful
 
 We create tables in Pgadmin and upload data via Python. There are four tables, biden_tweets, cesus_data, trump_tweets and vote_data.
 In order to anwer the proposed questions, we join different tables that contain target information in one to query data.  
-We create views of joined tables which can answer our questions efficiently.
+We created sample queries and joined tables which can answer our questions efficiently.
 
