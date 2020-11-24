@@ -33,9 +33,9 @@ The twitter data was compressed in Excel before it was loaded onto GitHub (the f
 
 ## Load
 
-The final database chosen is ProgreSQL. The reason is that SQL can be a powerful choice with a wide range of security standards and has numerous features to support reliability. It is a free and open source. The data model isn't going to change very often and not much documents data.
+The cleaned data was loaded into PostgreSQL. The reason we chose PostgreSQL because it has a wide range of security standards and has numerous features to support reliability. It is also free and open source. Furthermore, our data model isn't going to change very often.
 
-We create tables in Pgadmin and upload data via Python. There are four tables, biden_tweets, cesus_data, trump_tweets and vote_data.
-In order to anwer the proposed questions, we join different tables that contain target information in one to query data.  
+We created tables in PgAdmin and uploaded data via Python. There are four tables, biden_tweets, census_data, trump_tweets and vote_data.
+In order to answer the proposed questions, we join different tables that contain target information in one to query data.  
 We created sample queries and joined tables which can answer our questions efficiently.
 
